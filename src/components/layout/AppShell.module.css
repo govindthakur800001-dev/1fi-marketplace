@@ -1,0 +1,16 @@
+.phone {
+  width: 100%;
+  max-width: var(--app-max-width);
+  min-height: 100vh;
+  background: var(--color-canvas);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.35);
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: calc(var(--bottom-nav-height) + var(--space-4));
+}

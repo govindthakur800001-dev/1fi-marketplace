@@ -1,0 +1,77 @@
+/*
+  Design tokens for the 1Fi Marketplace section.
+
+  Grounded in 1Fi's actual brand (theme-color #6C28D9 on 1fi.in, and the
+  app's own EMI-first, mutual-fund-backed shopping model) rather than a
+  generic fintech palette:
+
+  - Violet is the single brand accent: used sparingly, for the one CTA
+    per screen and for "selected" states — never as a background wash.
+  - Green is reserved exclusively for the "0% interest / no-cost EMI"
+    signal, since that's the product's core financial promise and
+    deserves its own consistent color, distinct from the brand accent.
+  - Everything else is a quiet, warm-neutral scale so the two accent
+    colors keep their meaning.
+*/
+
+:root {
+  /* Brand */
+  --color-brand-600: #6c28d9;
+  --color-brand-700: #55229f;
+  --color-brand-50: #f4edfd;
+  --color-brand-100: #e9dbfb;
+
+  /* No-cost EMI signal (kept separate from brand on purpose) */
+  --color-positive-600: #17825a;
+  --color-positive-50: #e9f7f0;
+
+  /* Neutrals — warm, not pure gray, since the brand mark itself is warm-cool */
+  --color-ink-900: #17131f;
+  --color-ink-700: #423d4d;
+  --color-ink-500: #756f80;
+  --color-ink-300: #a49dae;
+  --color-line-200: #e7e2ee;
+  --color-line-100: #f1eef7;
+  --color-surface: #ffffff;
+  --color-canvas: #faf9fc;
+
+  /* Feedback */
+  --color-danger-600: #c23434;
+  --color-danger-50: #fbebeb;
+
+  /* Type */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --text-2xl: 1.5rem;   /* 24px — screen titles */
+  --text-xl: 1.125rem;  /* 18px — product name, price */
+  --text-md: 0.9375rem; /* 15px — body */
+  --text-sm: 0.8125rem; /* 13px — captions, meta */
+  --text-xs: 0.6875rem; /* 11px — micro labels */
+
+  /* Space (4px base, matches common mobile-app spacing scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Elevation — one soft shadow used consistently, not per-component */
+  --shadow-card: 0 1px 2px rgba(23, 19, 31, 0.04), 0 8px 20px -12px rgba(23, 19, 31, 0.18);
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-fast: 140ms;
+  --duration-standard: 220ms;
+
+  /* App shell */
+  --app-max-width: 430px; /* phone viewport, since this is a mobile app screen */
+  --bottom-nav-height: 64px;
+  --top-bar-height: 56px;
+}

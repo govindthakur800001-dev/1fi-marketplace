@@ -1,0 +1,49 @@
+.bar {
+  height: var(--top-bar-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-4);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-line-100);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: var(--text-xl);
+  color: var(--color-brand-600);
+  width: 40px;
+}
+
+.backButton {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  color: var(--color-ink-900);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  margin-left: -6px;
+}
+
+.backButton:hover {
+  background: var(--color-line-100);
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: var(--text-md);
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-ink-900);
+}
+
+.spacer {
+  width: 40px;
+}

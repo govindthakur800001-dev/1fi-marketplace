@@ -1,0 +1,189 @@
+[
+  {
+    "id": "iphone-17-pro",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro",
+    "category": "Smartphones",
+    "heroImage": "https://images.unsplash.com/photo-1696446701796-da61225697cc?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1696446701796-da61225697cc?w=800&q=80",
+      "https://images.unsplash.com/photo-1695048065156-b0863aa5b0e2?w=800&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 2140,
+    "shortDescription": "Titanium design, A19 Pro chip, and a pro camera system.",
+    "highlights": [
+      "6.3\" Super Retina XDR display",
+      "A19 Pro chip with 6-core GPU",
+      "48MP Fusion camera system",
+      "Up to 29 hours video playback"
+    ],
+    "variants": {
+      "storage": [
+        { "id": "256gb", "label": "256GB", "priceDelta": 0 },
+        { "id": "512gb", "label": "512GB", "priceDelta": 12000 },
+        { "id": "1tb", "label": "1TB", "priceDelta": 24000 }
+      ],
+      "color": [
+        { "id": "deep-blue", "label": "Deep Blue", "swatch": "#2b3a55" },
+        { "id": "silver", "label": "Silver", "swatch": "#d8d6d0" },
+        { "id": "cosmic-orange", "label": "Cosmic Orange", "swatch": "#b5502f" }
+      ]
+    },
+    "basePrice": 134900,
+    "emiTenuresMonths": [3, 6, 9, 12, 18, 24]
+  },
+  {
+    "id": "galaxy-s25-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S25 Ultra",
+    "category": "Smartphones",
+    "heroImage": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80",
+      "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?w=800&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1580,
+    "shortDescription": "Snapdragon 8 Elite, 200MP camera, and built-in S Pen.",
+    "highlights": [
+      "6.9\" Dynamic AMOLED 2X, 120Hz",
+      "Snapdragon 8 Elite for Galaxy",
+      "200MP wide camera with AI Zoom",
+      "5000mAh battery, 45W charging"
+    ],
+    "variants": {
+      "storage": [
+        { "id": "256gb", "label": "256GB", "priceDelta": 0 },
+        { "id": "512gb", "label": "512GB", "priceDelta": 10000 }
+      ],
+      "color": [
+        { "id": "titanium-black", "label": "Titanium Black", "swatch": "#1c1c1e" },
+        { "id": "titanium-gray", "label": "Titanium Gray", "swatch": "#8a8a8e" }
+      ]
+    },
+    "basePrice": 129999,
+    "emiTenuresMonths": [3, 6, 9, 12, 18, 24]
+  },
+  {
+    "id": "pixel-10-pro",
+    "brand": "Google",
+    "name": "Pixel 10 Pro",
+    "category": "Smartphones",
+    "heroImage": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 860,
+    "shortDescription": "The most helpful Pixel yet, powered by Google Tensor G5.",
+    "highlights": [
+      "6.3\" Super Actua display",
+      "Google Tensor G5",
+      "Pro-level triple camera with Magic Editor",
+      "7 years of OS + security updates"
+    ],
+    "variants": {
+      "storage": [
+        { "id": "128gb", "label": "128GB", "priceDelta": 0 },
+        { "id": "256gb", "label": "256GB", "priceDelta": 8000 }
+      ],
+      "color": [
+        { "id": "obsidian", "label": "Obsidian", "swatch": "#1b1b1d" },
+        { "id": "porcelain", "label": "Porcelain", "swatch": "#e9e4da" }
+      ]
+    },
+    "basePrice": 99999,
+    "emiTenuresMonths": [3, 6, 9, 12, 18]
+  },
+  {
+    "id": "macbook-air-m4",
+    "brand": "Apple",
+    "name": "MacBook Air M4",
+    "category": "Laptops",
+    "heroImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 3020,
+    "shortDescription": "Strikingly thin, remarkably capable, built for all-day battery life.",
+    "highlights": [
+      "13.6\" Liquid Retina display",
+      "Apple M4 chip, 16GB unified memory",
+      "Up to 18 hours battery life",
+      "Fanless, silent design"
+    ],
+    "variants": {
+      "storage": [
+        { "id": "256gb", "label": "256GB SSD", "priceDelta": 0 },
+        { "id": "512gb", "label": "512GB SSD", "priceDelta": 15000 }
+      ],
+      "color": [
+        { "id": "midnight", "label": "Midnight", "swatch": "#1f2937" },
+        { "id": "starlight", "label": "Starlight", "swatch": "#e8e1d3" }
+      ]
+    },
+    "basePrice": 114900,
+    "emiTenuresMonths": [3, 6, 9, 12, 18, 24]
+  },
+  {
+    "id": "oneplus-15",
+    "brand": "OnePlus",
+    "name": "OnePlus 15",
+    "category": "Smartphones",
+    "heroImage": "https://images.unsplash.com/photo-1592286927505-1def25115558?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1592286927505-1def25115558?w=800&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 640,
+    "shortDescription": "Flagship performance with 100W SUPERVOOC fast charging.",
+    "highlights": [
+      "6.8\" 2K ProXDR display, 165Hz",
+      "Snapdragon 8 Elite Gen 2",
+      "Hasselblad camera system",
+      "100W wired, 50W wireless charging"
+    ],
+    "variants": {
+      "storage": [
+        { "id": "256gb", "label": "256GB", "priceDelta": 0 },
+        { "id": "512gb", "label": "512GB", "priceDelta": 6000 }
+      ],
+      "color": [
+        { "id": "sand-storm", "label": "Sand Storm", "swatch": "#c9b79c" },
+        { "id": "infinite-black", "label": "Infinite Black", "swatch": "#111214" }
+      ]
+    },
+    "basePrice": 64999,
+    "emiTenuresMonths": [3, 6, 9, 12]
+  },
+  {
+    "id": "royal-enfield-classic-350",
+    "brand": "Royal Enfield",
+    "name": "Classic 350",
+    "category": "Two-wheelers",
+    "heroImage": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80"
+    ],
+    "rating": 4.4,
+    "reviewCount": 410,
+    "shortDescription": "The timeless motorcycle, now with a smoother J-series engine.",
+    "highlights": [
+      "349cc J-series engine",
+      "20.2 bhp, 27 Nm torque",
+      "Dual-channel ABS",
+      "Available in 6 colourways"
+    ],
+    "variants": {
+      "storage": [{ "id": "standard", "label": "Standard", "priceDelta": 0 }],
+      "color": [
+        { "id": "stealth-black", "label": "Stealth Black", "swatch": "#1a1a1a" },
+        { "id": "gunmetal-grey", "label": "Gunmetal Grey", "swatch": "#4b4d52" }
+      ]
+    },
+    "basePrice": 193000,
+    "emiTenuresMonths": [6, 12, 18, 24]
+  }
+]
